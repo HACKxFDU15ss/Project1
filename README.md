@@ -29,8 +29,9 @@
 ## 任务分工
 吴豪奇+麻俊特：
 
-- 使用`物件识别Caffe_SSD`
-- 结合 `OpenCV 抓取 Cemera 影像`，并对其做出识别- 讯息传递系统：`集成 ROS 与Caffe`
+- 使用`物件识别Caffe_SSD`的库
+- 结合 `OpenCV 抓取 Cemera 影像`，对视频流中的图像进行识别- 讯息传递系统：`集成 ROS 与Caffe`，将Jetson TX1 中的动作指令发送到电机控制：Arduino上去。
+- wifi remote control TX1系统，发送keyboard指令
 
 程世磊+王力：
 
@@ -45,3 +46,9 @@
 谢思豪：
 
 - 研究如何使用ROS
+- Topic中的发布/订阅（同一workspace），在通过USB连接的Arduibo和TX1之间的通信实现
+
+## 第一天问题
+- caffe-SSD无法执行，make时报错
+- Arduibo和TX1之间的通信
+- 不同port控制Arduibo的程序
