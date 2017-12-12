@@ -51,4 +51,5 @@
 ## 第一天问题
 - caffe-SSD无法执行，make时报错
 - Arduibo和TX1之间的通信
-- 不同port控制Arduibo的程序
+ 不同port控制Arduibo的程序
+测试一下VIM
